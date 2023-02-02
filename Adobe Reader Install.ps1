@@ -1,0 +1,1 @@
+winget install -e --silent --accept-package-agreements --accept-source-agreements  --disable-interactivity --id Adobe.Acrobat.Reader.64-bit

@@ -1,0 +1,1 @@
+Net localgroup administrators "AzureAD\user's email or user name" /add
