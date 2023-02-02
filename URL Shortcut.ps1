@@ -1,7 +1,7 @@
 $icon = "%ProgramFiles(x86)%\Microsoft\Edge\Application\msedge.exe"
-$Arg = "https://timekeeper.ascentis.com/novatime/ewskiosk.aspx?CID=7a51e3ec-4123-41e1-92e8-bee7bd32e719"
+$Arg = "https://whatever your website link is here"
 $SourceFileLocation = "C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe"
-$ShortcutLocation = "C:\Users\Public\Desktop\Time Keeper.lnk"
+$ShortcutLocation = "C:\Users\Public\Desktop\Website Name.lnk"
 
 $WScriptShell = New-Object -ComObject WScript.Shell
 $Shortcut = $WScriptShell.CreateShortcut($ShortcutLocation)
