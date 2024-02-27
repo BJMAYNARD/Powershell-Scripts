@@ -1,4 +1,4 @@
-﻿$connectTestResult = Test-NetConnection -ComputerName nordicaf.file.core.windows.net -Port 445
+﻿$connectTestResult = Test-NetConnection -ComputerName (nameaf).file.core.windows.net -Port 445
 if ($connectTestResult.TcpTestSucceeded) {
     # Save the password so the drive will persist on reboot
     cmd.exe /C "cmdkey /add:`"companynameaf.file.core.windows.net`" /user:`"localhost\companynameaf`" /pass:`"paste you key in here`""
